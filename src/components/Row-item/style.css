@@ -1,0 +1,28 @@
+table {
+  margin: 0 auto;
+  border-spacing: 0px;
+  width: 100%;
+}
+table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+.thead {
+  color: rgb(92, 92, 92);
+  background-color: rgb(177, 177, 177);
+  font-size: 14px;
+}
+.tbody {
+  font-size: 16px;
+}
+td:first-child {
+  text-align: start;
+  width: 40%;
+  padding-left: 30px;
+}
+td:nth-child(2) {
+  width: 30%;
+}
+td:nth-child(3) {
+  width: 30%;
+}
