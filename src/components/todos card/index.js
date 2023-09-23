@@ -10,7 +10,7 @@ function TodosCard({ data, setData }) {
       {data.map((item) => (
         <RowItem
           item={item}
-          handelDelete={() => {
+          handleDelete={() => {
             const filtered = data.filter((el) => el.id !== item.id);
             setData(filtered);
           }}
